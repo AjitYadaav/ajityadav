@@ -19,7 +19,7 @@ const projects = [
     image: img1,
     technologies: ["HTML", "CSS", "JavaScript"],
     demoUrl: "https://spotify-front-page.netlify.app/",
-    githubUrl: "https://github.com/AjitYadaav/SpotifyFrontendClone",
+    githubUrl: "https://github.com/AjitYadaav/amazon-clone-html-css.git",
   },
   {
     id: 3,
