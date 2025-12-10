@@ -13,7 +13,7 @@ const AboutSection = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div className="space-y-6">
           <h3 className="text-2xl font-semibold">
-            Passionate Web Developer & Student 🧑🏻‍🎓
+            Aspiring Data Scientist & Student 🧑🏻‍🎓
           </h3>
           <p className="text-muted-foreground">
             Hello, I’m Ajit Yadav, an aspiring Data Scientist with a strong interest in analytics, machine learning, and extracting insights from data to support smarter decisions. I am currently expanding my skills in Python, SQL, data analysis, and predictive modeling, and I am deeply motivated by the potential of data to solve real-world challenges and create meaningful impact.
