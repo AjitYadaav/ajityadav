@@ -2,23 +2,37 @@ import { useState } from "react";
 import {cn} from "@/lib/utils";
 
 const skills = [
-    // Frontend
-    { name: "HTML/CSS", level: 95, category: "frontend" },
-    { name: "JavaScript", level: 90, category: "frontend" },
-    { name: "React.js", level: 85, category: "frontend" },
-    { name: "Tailwind CSS", level: 80, category: "frontend" },
+  // Data Science & ML
+  { name: "Python", level: 90, category: "datascience" },
+  { name: "SQL", level: 85, category: "datascience" },
+  { name: "Machine Learning", level: 80, category: "datascience" },
+  { name: "Pandas", level: 85, category: "datascience" },
+  { name: "NumPy", level: 80, category: "datascience" },
+  { name: "Scikit-learn", level: 75, category: "datascience" },
+  { name: "Data Analysis", level: 80, category: "datascience" },
+  { name: "Visualization (Matplotlib/Seaborn)", level: 75, category: "datascience" },
 
-    // Backend
-    { name: "Node.js", level: 80, category: "backend" },
-    { name: "Express.js", level: 75, category: "backend" },
-    { name: "MongoDB", level: 70, category: "backend" },
+  // Deep Learning
+  { name: "TensorFlow", level: 60, category: "ml" },
+  { name: "PyTorch", level: 55, category: "ml" },
 
-    // Tools
-    { name: "Git & GitHub", level: 85, category: "tools" },
-    { name: "VS Code", level: 90, category: "tools" },
-    { name: "Postman", level: 75, category: "tools" },
-    { name: "Figma", level: 70, category: "tools" }
+  // Web Development
+  { name: "HTML/CSS", level: 90, category: "frontend" },
+  { name: "JavaScript", level: 85, category: "frontend" },
+  { name: "React.js", level: 80, category: "frontend" },
+  { name: "Tailwind CSS", level: 75, category: "frontend" },
+  { name: "Node.js", level: 70, category: "backend" },
+  { name: "Express.js", level: 65, category: "backend" },
+  { name: "MongoDB", level: 65, category: "backend" },
+
+  // Tools
+  { name: "Git & GitHub", level: 85, category: "tools" },
+  { name: "VS Code", level: 90, category: "tools" },
+  { name: "Jupyter Notebook", level: 85, category: "tools" },
+  { name: "Postman", level: 70, category: "tools" },
+  { name: "Figma", level: 65, category: "tools" }
 ];
+
 
 const categories = ['all','frontend','backend','tools'];
 
