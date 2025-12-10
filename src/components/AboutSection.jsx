@@ -16,17 +16,10 @@ const AboutSection = () => {
             Passionate Web Developer & Student 🧑🏻‍🎓
           </h3>
           <p className="text-muted-foreground">
-            Hello! I'm Ajit Yadav, a web development enthusiast with a deep
-            passion for coding and continuous learning. I believe that great
-            user experiences come from attention to detail and a love for
-            solving problems creatively.
+            Hello, I’m Ajit Yadav, an aspiring Data Scientist with a strong interest in analytics, machine learning, and extracting insights from data to support smarter decisions. I am currently expanding my skills in Python, SQL, data analysis, and predictive modeling, and I am deeply motivated by the potential of data to solve real-world challenges and create meaningful impact.
           </p>
           <p className="text-muted-foreground">
-            I'm a dedicated and curious web developer currently studying at NIT
-            Warangal. I enjoy building clean, responsive websites and exploring
-            new technologies like React, Tailwind CSS, and Node.js. Whether it's
-            designing interactive UIs or solving tough coding problems, I love
-            turning ideas into reality through code.
+            I am a dedicated and curious data science learner currently pursuing my B.Tech at NIT Warangal. My interests include data analysis, machine learning, and developing predictive solutions that address real-world challenges. I enjoy working with Python, SQL, and ML libraries, and I am constantly exploring new tools, techniques, and concepts to build practical and impactful data-driven projects.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -50,10 +43,9 @@ const AboutSection = () => {
                 <Code className="h-6 w-6 text-primary" />
               </div>
               <div className="text-left">
-                <h4 className="font-semibold text-lg">Web Development</h4>
+                <h4 className="font-semibold text-lg">Data Scientist</h4>
                 <p>
-                  Creating responsive websites and web applications with modern
-                  frameworks.
+                  Analyzing data, building predictive models, and deriving actionable insights using modern data science tools and frameworks.
                 </p>
               </div>
             </div>
